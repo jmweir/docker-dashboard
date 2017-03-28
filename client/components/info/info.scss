@@ -1,0 +1,12 @@
+.info {
+    position: relative;
+
+    & .logo {
+    }
+
+    & .bottom-align-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}

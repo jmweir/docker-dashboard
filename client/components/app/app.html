@@ -1,0 +1,19 @@
+<div class="app">
+    <div class="container-fluid">
+        <div class="row">
+            <info info="$ctrl.info"></info>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <uib-tabset class="tabs-left" active="active">
+                    <uib-tab index="0" heading="Running">
+                        <containers channel="$ctrl.channel" containers="$ctrl.containers" state="'running'">
+                    </uib-tab>
+                    <uib-tab index="1" heading="Stopped">
+                        <containers channel="$ctrl.channel" containers="$ctrl.containers" state="'exited'">
+                    </uib-tab>
+                </uib-tabset>
+            </div>
+        </div>
+    </div>
+</div>

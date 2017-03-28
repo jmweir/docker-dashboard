@@ -1,0 +1,11 @@
+.containers {
+    cursor: pointer;
+    font-weight: 500;
+
+    & ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    & li {
+    }
+}

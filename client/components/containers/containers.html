@@ -1,0 +1,5 @@
+<div class="containers containers-{{$ctrl.state}}">
+    <div ng-repeat="container in $ctrl.containers | filter:{state:$ctrl.state}" class="row">
+        <container container="container">
+    </div>
+</div>

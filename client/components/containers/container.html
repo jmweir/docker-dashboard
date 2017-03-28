@@ -1,0 +1,11 @@
+<span class="container">
+    <span>{{$ctrl.container.name}}</span>
+    <span class="pull-right" ng-if="$ctrl.container.state === 'running'">
+        <i class="fa fa-stop" ng-click="$ctrl.stop()"></i>
+    </span>
+    <span class="pull-right" ng-if="$ctrl.container.state === 'exited'">
+        <i class="fa fa-play" ng-click="$ctrl.start()"></i>
+        &nbsp;
+        <i class="fa fa-trash" ng-click="$ctrl.rm()"></i>
+    </span>    
+</span>

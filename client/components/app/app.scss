@@ -1,0 +1,12 @@
+$dark_bg: #253237;
+$text_color: #ffffff;
+
+.app {
+    height: 100%;
+    background-color: $dark_bg;
+    color: $text_color;
+
+    & .containers {
+        float: right;
+    }
+}
